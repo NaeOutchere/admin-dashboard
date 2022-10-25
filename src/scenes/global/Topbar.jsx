@@ -5,10 +5,10 @@ import { InputBase } from '@mui/material';
 import  LightModeOutlinedIcon  from '@mui/icons-material/LightModeOutlined';
 import  DarkModeOutlinedIcon  from '@mui/icons-material/DarkModeOutlined';
 import NotificationsOutlinedIcon  from '@mui/icons-material/NotificationsOutlined';
-import SettingsModeOutlinedIcon  from '@mui/icons-material/SettingsOutlined';
+import SettingsOutlinedIcon  from '@mui/icons-material/SettingsOutlined';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import SearchIcon from '@mui/icons-material/Search';
-import { SettingsOutlined } from '@mui/icons-material';
+
 
 
 
@@ -43,7 +43,7 @@ const Topbar = () => {
                     <NotificationsOutlinedIcon />
                 </IconButton>
                 <IconButton>
-                    <SettingsOutlined />
+                    <SettingsOutlinedIcon />
                 </IconButton>
                 <IconButton>
                     <PersonOutlinedIcon />
